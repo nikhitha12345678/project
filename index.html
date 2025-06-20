@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant Menu</title>
+  <link rel="stylesheet" href="card.css" />
+   
+</head>
+<body>
+  <header>
+    <h1>Delight Bites</h1>
+    <nav>
+      <button onclick="showItems('veg')">Veg</button>
+      <button onclick="showItems('nonveg')">Non-Veg</button>
+      <button onclick="showItems('juice')">Juices</button>
+      <button onclick="showItems('starter')">Starters</button>
+      <button onclick="showItems('combo')">Combo</button>
+    </nav>
+  </header>
+
+  <main>
+    <div id="menu-container" class="menu-grid"></div>
+  </main>
+
+  
+  <script src="card.js"></script>
+</body>
+</html>
